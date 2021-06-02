@@ -9,7 +9,10 @@
 ==/UserStyle== */
 @-moz-document regexp(".*.atlassian.net/jira.*"),
 regexp(".*.atlassian.net/browse.*"),
-regexp(".*.atlassian.net/secure.*")
+regexp(".*.atlassian.net/secure.*"),
+regexp("jira.zappos.net/jira.*"),
+regexp("jira.zappos.net/browse.*"),
+regexp("jira.zappos.net/secure.*")
     {
     header[role="banner"],
     [data-testid="Content"],
